@@ -73,7 +73,7 @@ def clean_text(user_input,text_to_clean):
 
 
 # Criteria 1
-file_path = r"Data Science (Fundamentals)\T21 - Capstone Project - NLP Applications\amazon_product_reviews.csv"
+file_path = "amazon_product_reviews.csv"
 
 #Read csv, remove blank entries and remove white space
 amazon_reviews = pd.read_csv(file_path,low_memory=False)
